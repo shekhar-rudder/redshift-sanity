@@ -36,7 +36,7 @@ models:
           preprocessing: *model_prep_configs # Use the same config as training
           outputs:
             column_names:
-              percentile: &percentile_name shopify_churn_1 # Name of column in output table having percentile score
+              percentile: &percentile_name percentile_churn_score_7_days # Name of column in output table having percentile score
               score: churn_score_7_days # Name of column in output table having probabilistic score
             feature_meta_data: &feature_meta_data
               features:
