@@ -1,5 +1,5 @@
 models:
-  - name: &model_name shopify_churn_1
+  - name: &model_name shopify_churn
     model_type: python_model
     model_spec:
       occurred_at_col: insert_ts
