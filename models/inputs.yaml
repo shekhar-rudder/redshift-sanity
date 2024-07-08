@@ -10,7 +10,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: identifies
+      table: rs_profiles_3.identifies
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
@@ -33,7 +33,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: pages
+      table: rs_profiles_3.pages
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
@@ -53,7 +53,7 @@ inputs:
         - user
       with_columns: []
     app_defaults:
-      table: tracks
+      table: rs_profiles_3.tracks
       occurred_at_col: timestamp
       ids:
         - select: "user_id"
